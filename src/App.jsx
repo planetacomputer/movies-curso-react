@@ -4,7 +4,7 @@ import {
   Routes,
   Route,
   Link,
-  Navigate,
+  Navigate
 } from "react-router-dom";
 import { MovieDetails } from "./pages/MovieDetails";
 import { LandingPage } from "./pages/LandingPage";
@@ -14,7 +14,7 @@ export function App() {
     <Router>
       <header>
         <Link to="/">
-          <h1 className={styles.title}>Movies</h1>
+          <h1 className={styles.title}>sMovies</h1>
         </Link>
       </header>
       <main>
